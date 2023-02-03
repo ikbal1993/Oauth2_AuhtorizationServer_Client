@@ -1,0 +1,22 @@
+package com.auth.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.core.userdetails.User;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.provisioning.InMemoryUserDetailsManager;
+
+@Configuration
+public class CustomeUserDetails extends WebSecurityConfigurerAdapter{
+
+	@Bean
+	public UserDetailsService userDetailsService() {
+		
+		InMemoryUserDetailsManager user = new InMemoryUserDetailsManager();
+		
+		user.createUser(User.withUsername("ikbal").password("1234").authorities("read").build());
+		
+		return user;
+	}
+}

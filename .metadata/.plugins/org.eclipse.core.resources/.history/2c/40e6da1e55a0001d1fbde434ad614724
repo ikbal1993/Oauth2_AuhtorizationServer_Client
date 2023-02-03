@@ -1,0 +1,7 @@
+
+spring.security.oauth2.client.registration.github.client-id=6405283b741652d596d5
+spring.security.oauth2.client.registration.github.client-secret=6d512ea310213c9f56cb6233b04d972a0e2094dc
+
+spring.application.name=demo
+
+server.port=8085

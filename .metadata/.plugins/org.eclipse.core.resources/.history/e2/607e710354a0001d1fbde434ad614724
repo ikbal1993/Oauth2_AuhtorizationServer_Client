@@ -1,0 +1,14 @@
+spring:
+  security:
+    oauth2:
+      client:
+            clientId: client
+            clientSecret: secret
+            
+  application:
+    name: demo1
+
+    
+server:
+  port: 8085    
+  

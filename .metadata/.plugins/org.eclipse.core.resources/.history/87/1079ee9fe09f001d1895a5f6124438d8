@@ -1,0 +1,13 @@
+spring:
+  security:
+    oauth2:
+      client:
+            clientId: c0c1f3f9d69cf3cac9ed
+            clientSecret: 8d8101ff99451bb31aa6ed7ac4283b8bc4544e80
+            
+  application:
+    name: demo1
+
+    
+server:
+  port: 8082    

@@ -1,0 +1,10 @@
+
+#spring.security.oauth2.client.registration.github.client-id=c0c1f3f9d69cf3cac9ed
+#spring.security.oauth2.client.registration.github.client-secret=31631f1eb72e6b8c85ace0037bccb4ea07abe307
+
+spring.security.oauth2.client.registration.Demo-Example.client-id=2500
+spring.security.oauth2.client.registration.Demo-Example-secret=ik25ik
+
+spring.application.name=demo1
+
+server.port=8085

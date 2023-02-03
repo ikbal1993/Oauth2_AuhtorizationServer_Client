@@ -1,0 +1,11 @@
+package com.auth.config;
+
+
+@Service
+public class UserDetailsImpl {
+
+	
+	
+
+	
+}
